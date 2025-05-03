@@ -1,0 +1,10 @@
+form{
+    background-color: cadetblue;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 5%;
+
+}
+input{
+    padding: 5px;
+}

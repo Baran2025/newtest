@@ -1,0 +1,27 @@
+body{
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter{
+    font-size: 50px;
+}
+
+.follower{
+    font-size: 32px;
+}
