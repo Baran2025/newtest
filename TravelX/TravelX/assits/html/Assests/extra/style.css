@@ -1,0 +1,96 @@
+/* Importing a cool font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Section Book Start */
+.book {
+    background: #f9f9f9;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif; /* Applying the cool font */
+}
+
+.main-text h1 {
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 700; /* Increased font weight for a bolder look */
+    font-size: 2.5em; /* Larger font size for a more prominent header */
+}
+
+.main-text h1 span {
+    color: #004047;
+    font-weight: 700; /* Ensuring the span also has bold text */
+}
+
+.book .card {
+    border-radius: 15px; /* Slightly more rounded corners */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Softer shadow for a modern look */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.book .card:hover {
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.book .row {
+    margin-top: 30px;
+}
+
+.book form input {
+    padding: 12px;
+    color: black;
+    border: 1px solid #ddd; /* Added border for better definition */
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.book form input:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.book form textarea {
+    border: 1px solid #ddd; /* Added border for better definition */
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    height: 200px;
+    padding: 12px; /* Added padding for better text spacing */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.book form textarea:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.book .submit {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #004047;
+    color: white;
+    border: none; /* Removing default border */
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.book .submit:hover {
+    width: 170px;
+    background: #002a2a; /* Slightly darker background on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+@media (max-width: 765px) {
+    .book {
+        padding: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .main-text h1 {
+        padding: 10px; /* Adjusted padding for smaller screens */
+        font-size: 2em; /* Slightly smaller font size for smaller screens */
+    }
+}
+/* Section Book End */
