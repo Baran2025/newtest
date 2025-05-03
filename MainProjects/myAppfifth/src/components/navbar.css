@@ -1,0 +1,14 @@
+nav{
+    background-color: brown;
+  
+  
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 5%;
+    font-size: 30px; 
+}
+

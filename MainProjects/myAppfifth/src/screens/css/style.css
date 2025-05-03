@@ -1,0 +1,19 @@
+.bg-slider{
+    height: 800px;
+    background-image: url(../images/pexels-nout-gons-80280-248159.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main-box{
+    display: flex;
+    background-color: chartreuse;
+    padding: 10%;
+}
+.box{
+    height: 500px;
+    width: 50%;
+    background-color: darkblue;
+    border: 1px solid black;
+}
